@@ -121,7 +121,8 @@ while (1) {
     writeHoldingRegister(0, potentiometerValue);
     // Stop the HAL ADC
     HAL_ADC_Stop(&hadc1);
-}'''
+}
+'''
 
 
 💡 Test this example using the **Kappa4310Rasp Evaluation Board**:
