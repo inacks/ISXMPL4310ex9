@@ -9,6 +9,19 @@ It demonstrates:
 
 The following code is an abstraction of the 'main.c' omitting the HAL libraries. Check the 'rar' file for the full STM32 project.
 
+💡 Test this example using the **Kappa4310Rasp Evaluation Board**:
+👉 [https://www.inacks.com/kappa4310rasp](https://www.inacks.com/kappa4310rasp)
+
+And the **Nucleo-C071**: [https://www.st.com/en/evaluation-tools/nucleo-c071rb.html](https://www.st.com/en/evaluation-tools/nucleo-c071rb.html)
+
+
+
+📄 Download the **IS4310 datasheet**:
+👉 [https://www.inacks.com/is4310](https://www.inacks.com/is4310)
+
+For more information visit [www.inacks.com](https://www.inacks.com/is4310)
+
+
 ```c
 uint16_t readHoldingRegister(uint16_t registerAdressToRead) {
     uint8_t IS4310_I2C_Chip_Address; // This variable stores the I2C chip address of the IS4310.
@@ -127,14 +140,4 @@ while (1) {
 
 
 
-💡 Test this example using the **Kappa4310Rasp Evaluation Board**:
-👉 [https://www.inacks.com/kappa4310rasp](https://www.inacks.com/kappa4310rasp)
 
-And the **Nucleo-C071**: [https://www.st.com/en/evaluation-tools/nucleo-c071rb.html](https://www.st.com/en/evaluation-tools/nucleo-c071rb.html)
-
-
-
-📄 Download the **IS4310 datasheet**:
-👉 [https://www.inacks.com/is4310](https://www.inacks.com/is4310)
-
-For more information visit [www.inacks.com](https://www.inacks.com/is4310)
