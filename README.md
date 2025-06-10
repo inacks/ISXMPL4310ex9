@@ -8,7 +8,7 @@ It demonstrates:
 
 The following code is an abstraction of the 'main.c' omitting the HAL libraries. Check the 'rar' file for the full STM32 project.
 
-'''
+'''cpp
 uint16_t readHoldingRegister(uint16_t registerAdressToRead) {
 	  uint8_t IS4310_I2C_Chip_Address; // This variable stores the I2C chip address of the IS4310.
 	  IS4310_I2C_Chip_Address = 0x11; // The IS4310's I2C address is 0x11.
