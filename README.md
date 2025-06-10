@@ -1,3 +1,4 @@
+
 # IS4310 Modbus STM32 Code Example
 
 This STM32 CubeIDE project communicates with the IS4310 Modbus RTU chip via I2C.
@@ -121,7 +122,9 @@ while (1) {
     writeHoldingRegister(0, potentiometerValue);
     // Stop the HAL ADC
     HAL_ADC_Stop(&hadc1);
-}'''
+}
+```
+
 
 
 💡 Test this example using the **Kappa4310Rasp Evaluation Board**:
